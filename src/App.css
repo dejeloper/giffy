@@ -1,19 +1,8 @@
 .App {
   text-align: center;
-}
+}  
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.App-content {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,17 +11,59 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 10px;
+}  
+
+a {
+  color: #09f;
 }
 
-.App-link {
-  color: #61dafb;
+.input {
+  margin: 10px auto;  
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-text{
+  margin: 0px 10px;
+  padding: 15px;
+  width: 300px;
+  font-size: 18px;
+}
+
+.select-text{  
+  margin: 0px 10px;
+  padding: 15px;
+  width: 100px;
+  font-size: 18px;
+}
+
+.button {
+	font-family: Verdana;
+	font-style: italic;
+	color: #FFFFFF;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px #469ef5 solid;
+	background: linear-gradient(180deg, #79bcff 5%, #4198ee 100%);
+	text-shadow: 1px 1px 1px #287bce;
+	box-shadow: inset 1px 1px 2px 0px #cae3fc;
+	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+  margin: 0px 10px;
+}
+.button:hover {
+	background: linear-gradient(180deg, #4198ee 5%, #79bcff 100%);
+}
+.button-icon {
+	padding: 10px 10px;
+	border-left: 1px solid rgba(255, 255, 255, 0.16);
+	box-shadow: rgba(0, 0, 0, 0.14) 1px 0px 0px inset;
+}
+.button-icon i {
+	position: relative;
+	font-size: 20px;
+}
+.button-text {
+	padding: 10px 18px;
 }
